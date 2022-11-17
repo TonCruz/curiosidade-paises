@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../image/bg03.jpg);
+}
+
+.container {
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    width: 30rem;
+    
+}
+
+.titulo {
+    color: rgb(255, 238, 0);
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+#boxMensagem {
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#boxMensagem span {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#boxMensagem h2 {
+    text-align: center;
+}
+
+#boxMensagem h3 {
+    color: rgb(255, 238, 0);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#boxMensagem p {
+    color: rgb(95, 95, 95);
+    font-size: 1rem;
+    text-align: center;
+}
+
+#btnMensagem {
+    padding: 10px 30px;
+    background: rgb(179, 167, 1);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btnMensagem:hover {
+    background-color: rgb(255, 238, 0);
+    
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 2.5rem;
+    }
+}
